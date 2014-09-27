@@ -13,7 +13,7 @@ data_structure_and_algo_with_JS
 4. Link List
 
 
-## Week 2:
+#### Week 2:
 
 1. Stack
 2. Queue
