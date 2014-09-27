@@ -13,7 +13,7 @@ week 1
 4. Link List
 
 
-請閱讀參考書籍的 
+請閱讀參考書籍的           
 Chapter 1          
 Chapter 2                    
 Chapter 3 的 35 ~ 36 頁 (書籍頁碼，不是 pdf 頁數)                    
