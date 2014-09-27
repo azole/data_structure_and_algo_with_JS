@@ -38,20 +38,28 @@ function push(ary, ele) {
 }
 
 // add ele to the start  of ary
-function unshift(ary, ele) {}
+function unshift(ary, ele) {
+  // TODO
+}
 
 // add ele to the pos of ary
-function insertTo(ary, ele, pos) {}
+function insertTo(ary, ele, pos) {
+  // TODO
+}
 
 // remove ele from the end of ary
-function pop(ary) {}
+function pop(ary) {
+  // TODO
+}
 
 // remove ele from the start of ary
-function shift(ary) {}
+function shift(ary) {
+  // TODO
+}
 
 // remove ele from the pos of ary
 function removeFrom(ary, pos) {
-
+  // TODO
 }
 
 // merge ary2 to ary1
