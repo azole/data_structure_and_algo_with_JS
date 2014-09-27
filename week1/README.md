@@ -17,4 +17,6 @@ week 1
 Chapter 1          
 Chapter 2                    
 Chapter 3 的 35 ~ 36 頁 (書籍頁碼，不是 pdf 頁數)                    
-Chapter 6 的 73 ~ 80 頁                         
+                    
+建議先練習完作業再閱讀以下內容：                    
+Chapter 6 的 73 ~ 80 頁           
