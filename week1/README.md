@@ -17,4 +17,4 @@ week 1
 Chapter 1          
 Chapter 2                    
 Chapter 3 的 35 ~ 36 頁 (書籍頁碼，不是 pdf 頁數)                    
-Chapter 3 的 73 ~ 80 頁                         
+Chapter 6 的 73 ~ 80 頁                         
