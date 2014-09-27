@@ -27,30 +27,34 @@ removeFrom(ary, 2);
 console.log(ary, '(remove second ele)');
 //[ 1, 2, 3, 4, 5, 6 ]
 
+var ary2 = [7, 8, 9];
+mergeArray(ary, ary2);
+console.log(ary, '(merge two array)');
+//[ 1, 2, 3, 4, 5, 6, 7, 8, 9 ] 
 
 // add ele to the end of ary and return ary
 function push(ary, ele) {
-  
+
 }
 
 // add ele to the start  of ary
-function unshift(ary, ele) {
-}
+function unshift(ary, ele) {}
 
 // add ele to the pos of ary
-function insertTo(ary, ele, pos) {
-}
+function insertTo(ary, ele, pos) {}
 
 // remove ele from the end of ary
-function pop(ary) {
-}
+function pop(ary) {}
 
 // remove ele from the start of ary
-function shift(ary) {
-}
+function shift(ary) {}
 
 // remove ele from the pos of ary
 function removeFrom(ary, pos) {
 
 }
 
+// merge ary2 to ary1
+function mergeArray(ary1, ary2) {
+
+}
