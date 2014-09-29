@@ -24,7 +24,7 @@ The elements of a list are displayed using either a "toString()" operation, whic
 Lists have properties to describe location. There is the "front" of a list and the "end" of a list. You can move from one element of a list to the next element using the "next()" operation, and you can move backward through a list using the "prev()" operation. You can also move to a numbered position in a list using the "moveTo(n)" operation, where n specifies the position to move to. The "currPos" property indicates the current position in a list.
 
 根據這樣的定義，我們可以做出 list 的ADT:
-
+```
 listSize (property)     Number of elements in list   
 pos (property)          Current position in list   
 length (property)       Returns the number of elements in list   
@@ -40,7 +40,7 @@ prev (function)         Moves current position back one element
 next (function)         Moves current position forward one element   
 currPos (function)      Returns the current position in list   
 moveTo (function)       Moves the current position to specified position   
-
+```
 
 確定了這個資料結構的 ADT 後，才開始決定要怎麼實作。
 在 ADT 的描述中，並沒有限定要用哪種語言，甚至是哪種基本的資料行別來做，ADT 是跨語言的、是抽象的。
