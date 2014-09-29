@@ -6,11 +6,12 @@ O(1) O(logn)  O(n)  O(nlogn)  O(n^2)  O(n^3) ... O(2^n)  O(3^n) ... O(n!) ...
 O(1)
 var result = (1+n)*n/2;
 
-<hr>
-O(n)
+```
+// O(n)
 for(var i =1; i<n; i++) {
   // do something
 }
+```
 
 <hr>
 O(n^2)
