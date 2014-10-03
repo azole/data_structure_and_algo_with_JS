@@ -76,11 +76,20 @@ function insertTo(ary, ele, pos) {
 // remove ele from the pos of ary
 function removeFrom(ary, pos) {
   var length = ary.length;
-  for (var i = pos; i < length; i++) {
+  for (var i = pos; i < length; i++) { 
     ary[i] = ary[i + 1];
   };
   ary.length = length - 1;
 };
+
+// 這是我的做法，給你參考一下
+// function removeFrom(ary, pos) {
+//   var len = ary.length - 1;
+//   for (var i = pos; i < len; i++) {
+//     ary[i] = ary[i + 1];
+//   }
+//   ary.length = len;
+// }
 
 // merge ary2 to ary1
 function mergeArray(ary1, ary2) {
