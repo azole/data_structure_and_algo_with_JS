@@ -62,6 +62,7 @@ function shift(ary) {
     ary[i] = ary[i + 1];
   };
   ary.length = length;
+  return popEle;
 };
 
 // add ele to the pos of ary
@@ -75,11 +76,13 @@ function insertTo(ary, ele, pos) {
 
 // remove ele from the pos of ary
 function removeFrom(ary, pos) {
-  var length = ary.length;
+  var length = ary.length,
+    popEle = ary[pos];
   for (var i = pos; i < length; i++) {
     ary[i] = ary[i + 1];
   };
   ary.length = length - 1;
+  return popEle;
 };
 
 // merge ary2 to ary1
