@@ -85,6 +85,15 @@ function removeFrom(ary, pos) {
   return popEle;
 };
 
+// 這是我的做法，給你參考一下
+// function removeFrom(ary, pos) {
+//   var len = ary.length - 1;
+//   for (var i = pos; i < len; i++) {
+//     ary[i] = ary[i + 1];
+//   }
+//   ary.length = len;
+// }
+
 // merge ary2 to ary1
 function mergeArray(ary1, ary2) {
   var arr1Length = ary1.length,

@@ -16,5 +16,10 @@ data_structure_and_algo_with_JS
 
 #### Week 2:
 
-1. Stack
-2. Queue
+1. List Implementation
+2. Doubly Linked List 
+3. Stack 的基本定義
+4. Stack 的實作
+5. Stack 的應用：convert infix to postfix, calculate postfix expression
+
+#### Week 3:
