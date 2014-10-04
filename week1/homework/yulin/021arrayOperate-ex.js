@@ -81,6 +81,7 @@ function removeFrom(ary, pos) {
   for (var i = pos; i < length; i++) {
     ary[i] = ary[i + 1];
   };
+  // 補充: 我的方法是多個 undefined(因為最後ary(i + 1)是未定義的), 再刪除
   ary.length = length - 1;
   return popEle;
 };
@@ -91,6 +92,7 @@ function removeFrom(ary, pos) {
 //   for (var i = pos; i < len; i++) {
 //     ary[i] = ary[i + 1];
 //   }
+//   // 補充: 這個方法是最後兩個會有同樣的元素, 再刪除最後一個
 //   ary.length = len;
 // }
 
