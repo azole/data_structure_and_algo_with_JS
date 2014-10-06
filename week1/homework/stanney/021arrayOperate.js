@@ -1,31 +1,36 @@
 'use strict';
 
+// azole: you can create a sublime text build system for nodejs
+//        and then you can use cmd+b to run node in your sublime.
+//        it's very convenient to develop and test nodejs.
+//        http://stackoverflow.com/questions/14427520/node-js-build-system-in-sublime-text-2
+
 var ary = [1, 2, 3, 4, 5, 6];
 console.log(ary);
 
 ary = push(ary, 99);
 console.log(ary, '(add 99 in the end of ary)'); 
-printAry(ary);
+//printAry(ary);
 // [ 1, 2, 3, 4, 5, 6, 99 ]
 
 ary =unshift(ary, 0);
 console.log(ary, '(add 0 in the start of ary)');
-printAry(ary);
+//printAry(ary);
 // [ 0, 1, 2, 3, 4, 5, 6, 99 ]
 
 ary = pop(ary);
 console.log(ary, '(remove the last ele of ary)');
-printAry(ary);
+//printAry(ary);
 // [ 0, 1, 2, 3, 4, 5, 6 ]
 
 ary = shift(ary);
 console.log(ary, '(remove the first ele of ary)');
-printAry(ary);
+//printAry(ary);
 // [ 1, 2, 3, 4, 5, 6 ]
 
 ary = insertTo(ary, 50, 2);
 console.log(ary, '(add 50 at pos 2)');
-printAry(ary);
+//printAry(ary);
 //[ 1, 2, 50, 3, 4, 5, 6 ]
 
 ary = removeFrom(ary, 2);
@@ -36,7 +41,7 @@ console.log(ary, '(remove second ele)');
 var ary2 = [7, 8, 9];
 ary = mergeArray(ary, ary2);
 console.log(ary, '(merge two array)');
-printAry(ary);
+//printAry(ary);
 
 //[ 1, 2, 3, 4, 5, 6, 7, 8, 9 ] 
 
@@ -67,6 +72,7 @@ function unshift(ary, ele) {
 }
 
 // add ele to the pos of ary
+// azole: pls refer to Yulin's work.
 function insertTo(ary, ele, pos) {
   // TODO
     //create two array
@@ -158,6 +164,6 @@ function mergeArray(ary1, ary2) {
 
 function printAry(ary){
     for(var i = 0; i < ary.length; i++)
-        alert(ary[i]);
-        //console.log(ary[i]);
+        //alert(ary[i]);
+        console.log(ary[i]);
 }

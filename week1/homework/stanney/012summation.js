@@ -1,5 +1,6 @@
 'use strict';
 
+// azole: SumWhile ?
 function SumWhite(n) {
   var answer = n;
   while (--n > 0) {
@@ -16,5 +17,7 @@ function SumRecursive(n) {
 }
 
 var num = 5;
-alert(SumWhite(num));
-alert(SumRecursive(num));
+
+// azole: change alert to console.log for testing
+console.log(SumWhite(num));
+console.log(SumRecursive(num));

@@ -33,6 +33,7 @@ console.log(ary, '(merge two array)');
 //[ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]
 
 // add ele to the end of ary and return ary
+// azole: don't need count, you can use i to replace it.
 function push(ary, ele) {
    var newAry = [];
    var count = 0;
@@ -57,6 +58,7 @@ function unshift(ary, ele) {
 }
 
 // add ele to the pos of ary
+// azole: please refer to Yulin's work
 function insertTo(ary, ele, pos) {
   var newAry = [];
   var hadEncounterPos = false;
