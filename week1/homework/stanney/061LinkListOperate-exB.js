@@ -47,8 +47,8 @@ traverse(head);
 var list1 = head;
 //var list3 = list1;
 
-//head = null;
-var list2 = null;
+head = null;
+var list2;
 insertToTail(5);
 traverse(head);
 insertToTail(6);
@@ -59,9 +59,9 @@ insertAfterEle(7,6);
 traverse(head);
 
 var list2 = head;
-
+traverse(list1);
 var mergelist = mergeList(list1,list2);
-traverse(list3);
+traverse(list1);
 traverse(mergelist);
 
 
