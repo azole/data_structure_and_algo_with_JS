@@ -5,7 +5,7 @@ data_structure_and_algo_with_JS
            
 作者：Michael McMillan
 
-#### Week1:
+#### Week1
 
 1. Big O
 2. Recursion
@@ -14,7 +14,7 @@ data_structure_and_algo_with_JS
 5. Link List
 
 
-#### Week 2:
+#### Week 2
 
 1. List Implementation
 2. Doubly Linked List 
@@ -22,4 +22,15 @@ data_structure_and_algo_with_JS
 4. Stack 的實作
 5. Stack 的應用：convert infix to postfix, calculate postfix expression
 
-#### Week 3:
+#### Week 3
+
+1. Tree
+2. Binary Tree
+3. Complete Binary Tree
+4. Binary Tree Traversal: Preorder, Inorder, Postorder
+5. Bianry Tree and Expressoin
+
+
+#### Week 4
+
+1. Binary Search Tree
