@@ -27,6 +27,7 @@ Stack.prototype.clear = function() {
 
 // 運算子的priority
 var priority = {
+  '(': 0,
   '+': 1,
   '-': 1,
   '*': 2,
@@ -40,14 +41,14 @@ var postfix = convertInToPost(input);
 console.log(postfix);
 var answer = calculatePostfix(postfix);
 console.log(answer);
-console.log(2*(3+1));
+console.log('驗證: ', 2 * (3 + 1));
 
 var input2 = '2*(3+1)/(2+2)*5';
 var postfix2 = convertInToPost(input2);
 console.log(postfix2);
 var answer2 = calculatePostfix(postfix2);
 console.log(answer2);
-console.log(2*(3+1)/(2+2)*5);
+console.log('驗證: ', 2 * (3 + 1) / (2 + 2) * 5);
 
 function convertInToPost(input) {
   var s = new Stack();
@@ -69,13 +70,14 @@ function convertInToPost(input) {
       case '/':
       case '+':
       case '-':
-        if (s.length === 0)
-        // 空的就直接丟
+        if (s.length === 0) {
+          // 空的就直接丟
           s.push(input[i]);
-        else
-        // 先偷看有沒有比我大, 有就拔出來, 拔到沒有比我大(或是拔到空)
-          while (priority[s.peek()] > priority[input[i]])
-          output.push(s.pop());
+        } else {
+          // 先偷看, 一直拔一直拔一直拔, 拔到比我小就停(或是拔到空)
+          while (priority[s.peek()] >= priority[input[i]])
+            output.push(s.pop());
+        }
         if (s.length === 0)
           break;
         s.push(input[i]);
