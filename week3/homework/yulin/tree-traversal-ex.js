@@ -49,8 +49,7 @@ function postorder(T) {
 // 依照 preorder 的順序印出樹
 function preorderWhile(T) {
   var stack = [],
-    value = T.data,
-    deadline = 20;
+    value = T.data;
   while (!!value) {
     process.stdout.write(value);
     if (T.rightChild !== null) {
